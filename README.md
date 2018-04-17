@@ -1,5 +1,5 @@
 # Common cache algorithms written with go
 
-- [x] FIFO
+- [x] FIFO
 - [x] LRU
 - [ ] LFU
