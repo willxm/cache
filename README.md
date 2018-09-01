@@ -2,4 +2,4 @@
 
 - [x] FIFO
 - [x] LRU
-- [ ] LFU
+- [X] LFU
