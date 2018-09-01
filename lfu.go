@@ -50,7 +50,9 @@ func (l *LFUCache) Get(key int) interface{} {
 	return nil
 }
 
-func (l *LFUCache) Put(key, value interface{}) {
+func (l *LFUCache) Sut(key, value interface{}) {
+	l.amu.Lock()
+	defer l.amu.Unlock()
 	if l.capacity <= 0 {
 		return
 	}
